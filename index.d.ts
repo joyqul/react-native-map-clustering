@@ -28,6 +28,7 @@ declare module "react-native-map-clustering" {
     getClusterEngine?: (ref: any) => void;
     onMarkersChange?: (markers?: Marker[]) => void;
     renderCluster?: (cluster: any) => React.ReactNode;
+    generateClusterText?: function;
   }
 
   export default class MapView extends React.Component<
